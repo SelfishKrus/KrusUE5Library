@@ -1,0 +1,9 @@
+float2 OffsetTexCoord (float2 texelSize, float2 uv, float2 direction, float strength) {
+    return uv + direction * texelSize * strength;
+}
+
+float2 uv_up = OffsetTexCoord(texelSize, uv, float2(0, 1), strength);
+float2 uv_down = OffsetTexCoord(texelSize, uv, float2(0, -1), strength);
+float2 uv_left = OffsetTexCoord(texelSize, uv, float2(-1, 0), strength);
+float2 uv_right = OffsetTexCoord(texelSize, uv, float2(1, 0), strength);
+
