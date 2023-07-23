@@ -1,0 +1,10 @@
+.git
+.vs
+.vscode
+Content
+DerivedDataCache
+Intermediate
+Platforms
+Saved
+Shaders
+Plugins/ShaderDirectory/Content

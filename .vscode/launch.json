@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch KrusUE5Library (Debug)",
+			"request": "launch",
+			"program": "D:\\Unreal_Projects\\KrusUE5Library\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "KrusUE5Library Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch KrusUE5Library (DebugGame)",
+			"request": "launch",
+			"program": "D:\\Unreal_Projects\\KrusUE5Library\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "KrusUE5Library Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch KrusUE5Library (Development)",
+			"request": "launch",
+			"program": "D:\\Unreal_Projects\\KrusUE5Library\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "KrusUE5Library Win64 Development Build",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch KrusUE5Library (Test)",
+			"request": "launch",
+			"program": "D:\\Unreal_Projects\\KrusUE5Library\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "KrusUE5Library Win64 Test Build",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch KrusUE5Library (Shipping)",
+			"request": "launch",
+			"program": "D:\\Unreal_Projects\\KrusUE5Library\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "KrusUE5Library Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch KrusUE5LibraryEditor (Debug)",
+			"request": "launch",
+			"program": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "KrusUE5LibraryEditor Win64 Debug Build",
+			"args": [
+				"D:\\Unreal_Projects\\KrusUE5Library\\KrusUE5Library.uproject"
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch KrusUE5LibraryEditor (DebugGame)",
+			"request": "launch",
+			"program": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "KrusUE5LibraryEditor Win64 DebugGame Build",
+			"args": [
+				"D:\\Unreal_Projects\\KrusUE5Library\\KrusUE5Library.uproject"
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch KrusUE5LibraryEditor (Development)",
+			"request": "launch",
+			"program": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "KrusUE5LibraryEditor Win64 Development Build",
+			"args": [
+				"D:\\Unreal_Projects\\KrusUE5Library\\KrusUE5Library.uproject"
+			],
+			"cwd": "D:\\Program Files\\Epic Games\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Program Files\\Epic Games\\UE_5.1"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=D:\\Unreal_Projects\\KrusUE5Library\\KrusUE5Library.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "D:\\Program Files\\Epic Games\\UE_5.1"
+		}
+	]
+}

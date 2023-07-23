@@ -1,0 +1,50 @@
+[
+	{
+		"file": "D:\\Unreal_Projects\\KrusUE5Library\\Source\\KrusUE5Library\\KrusUE5Library.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal_Projects\\KrusUE5Library\\.vscode\\compileCommands_Default\\KrusUE5Library.255.rsp"
+		],
+		"directory": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal_Projects\\KrusUE5Library\\Source\\KrusUE5Library\\KrusUE5Library.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal_Projects\\KrusUE5Library\\.vscode\\compileCommands_Default\\KrusUE5Library.255.rsp"
+		],
+		"directory": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal_Projects\\KrusUE5Library\\Source\\KrusUE5Library\\KrusUE5Library.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal_Projects\\KrusUE5Library\\.vscode\\compileCommands_Default\\KrusUE5Library.255.rsp"
+		],
+		"directory": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal_Projects\\KrusUE5Library\\Source\\KrusUE5Library\\MyClass.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal_Projects\\KrusUE5Library\\.vscode\\compileCommands_Default\\KrusUE5Library.255.rsp"
+		],
+		"directory": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal_Projects\\KrusUE5Library\\Source\\KrusUE5Library\\MyClass.h",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal_Projects\\KrusUE5Library\\.vscode\\compileCommands_Default\\KrusUE5Library.255.rsp"
+		],
+		"directory": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal_Projects\\KrusUE5Library\\Plugins\\ShaderDirectory\\Source\\ShaderDirectory\\Private\\ShaderDirectory.cpp",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\Unreal_Projects\\KrusUE5Library\\.vscode\\compileCommands_Default\\KrusUE5Library.255.rsp"
+		],
+		"directory": "D:\\Program Files\\Epic Games\\UE_5.1\\Engine\\Source"
+	}
+]
