@@ -1,0 +1,32 @@
+// NormalOutline.hlsl
+// Robert Cross
+
+/*
+    || 0 1 ||
+    || 2 3 ||
+*/
+float2 offsets[4] = {
+    float2(0, 1),
+    float2(1, 1),
+    float2(0, 0),
+    float2(1, 0)
+};
+
+
+float param = 0;
+
+float2 uv = GetSceneTextureUV(Parameters);
+// float3 centerNormal = SceneTextureLookup(uv, 8, false);
+
+// float3 normal = Texture2DSample(WorldNormalTexture, WorldNormalSampler, uv + offsets[i] * screenTexelSize * _Thickness);
+float3 normal0 = SceneTextureLookup(uv + offsets[0] * screenTexelSize * _Thickness, 8, false);
+float3 normal1 = SceneTextureLookup(uv + offsets[1] * screenTexelSize * _Thickness, 8, false);
+float3 normal2 = SceneTextureLookup(uv + offsets[2] * screenTexelSize * _Thickness, 8, false);
+float3 normal3 = SceneTextureLookup(uv + offsets[3] * screenTexelSize * _Thickness, 8, false);
+
+float3 normalFiniteDifference0 = normal1 - normal2;
+float3 normalFiniteDifference1 = normal0 - normal3;
+
+// edge
+edge = sqrt(dot(normalFiniteDifference0, normalFiniteDifference0) + dot(normalFiniteDifference1, normalFiniteDifference1));
+edge = step(_Threshold, edge);
