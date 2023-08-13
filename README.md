@@ -4,6 +4,10 @@ UE 5.1.1
 ---
 
 # 1 - Toon Shading <a name="toonShading"></a>
+- [x] \<VFX> Back-facing outline
+- [x] \<VFX> Post-processing outline from depth map
+- [x] \<VFX> Face shadow SDF
+- [x] \<VFX> Cel Shading, light mask, fake SSS
 
 ## 1.1 - Demo <a name="toonShading_demo"></a>
 <p align="center">
